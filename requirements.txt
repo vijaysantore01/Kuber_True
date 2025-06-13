@@ -1,0 +1,8 @@
+streamlit
+pandas==2.1.4 # Keep this version for compatibility with older numpy/pandas_ta, as tested
+numpy==1.26.4 # Explicitly less than 2.0.0, and compatible with pandas 2.1.4 and pandas_ta
+pandas_ta # Let it pick the latest compatible version (which should be 0.3.14b0)
+requests
+twilio # Only if you enable Twilio SMS alerts
+truedata
+truedata-ws
